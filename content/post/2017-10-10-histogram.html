@@ -1,0 +1,48 @@
+---
+title: Histogram
+author: Ivona Plecevic
+date: '2017-10-10'
+slug: histogram
+categories:
+  - Histogram
+tags:
+  - Histogram
+  
+---
+
+
+
+<p>Here you can see how to make an Histagram!</p>
+<p>In this example we want to see the weights of MLB players, through the Master table.</p>
+<p>But firstly, we have to install those pakages:</p>
+<pre class="r"><code>library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<p>For this example, we need to use the Master table to gather its data.</p>
+<pre class="r"><code>query&lt;-&quot;SELECT weight 
+FROM Master&quot;
+result&lt;-sqldf(query)</code></pre>
+<p>Also, we have to use handy tool ggplot2:</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;purple&quot;,fill=&quot;white&quot;,bins=50)+
+  ggtitle(&quot;Body-weight Distribution for Baseball Players&quot;)+
+  xlab(&quot;Weight of player&quot;)+
+  ylab(&quot;Number of players&quot;)</code></pre>
+<pre><code>## Warning: Removed 854 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/post/2017-10-10-histogram_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>The histograms can also look a diffrent, because we can change colors and sizes of bins. Here is one example:</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;purple&quot;,fill=&quot;white&quot;,bins=10)+
+  ggtitle(&quot;Body-weight Distribution for Baseball Players&quot;)+
+  xlab(&quot;Weight of player&quot;)+
+  ylab(&quot;Number of players&quot;)</code></pre>
+<pre><code>## Warning: Removed 854 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/post/2017-10-10-histogram_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>Next example of Histagram help us to see some drastical changes:</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;purple&quot;,fill=&quot;white&quot;,bins=100)+
+  ggtitle(&quot;Distribution of Baseball Player Bodyweight&quot;)+
+  xlab(&quot;Weight of player&quot;)+
+  ylab(&quot;Number of players&quot;)</code></pre>
+<pre><code>## Warning: Removed 854 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/post/2017-10-10-histogram_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>

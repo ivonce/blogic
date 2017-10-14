@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bar Plot on Ivona&#39;s blog</title>
+    <link>/categories/bar-plot/</link>
+    <description>Recent content in Bar Plot on Ivona&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Fri, 13 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/bar-plot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bar Plot</title>
+      <link>/post/bar-plot/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/bar-plot/</guid>
+      <description>Here we can see how to make ourown Bar Plot!
+First step is to install all the pakages:
+library(Lahman) library(sqldf) library(ggplot2) In this example we will look at the team homerun totals for all the MLB teams in 1980:
+query&amp;lt;-&amp;quot;SELECT name,HR FROM Teams WHERE yearID=1980 ORDER BY HR&amp;quot; result&amp;lt;-sqldf(query) result$name&amp;lt;-factor(result$name,levels=result$name) To make an bar plot, we have to use this command! But aslo we can play with sizes of bins and otehr colors!</description>
+    </item>
+    
+  </channel>
+</rss>

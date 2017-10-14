@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Histogram on Ivona&#39;s blog</title>
+    <link>/tags/histogram/</link>
+    <description>Recent content in Histogram on Ivona&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/histogram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Histogram</title>
+      <link>/post/histogram/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/histogram/</guid>
+      <description>Here you can see how to make an Histagram!
+In this example we want to see the weights of MLB players, through the Master table.
+But firstly, we have to install those pakages:
+library(Lahman) library(sqldf) library(ggplot2) For this example, we need to use the Master table to gather its data.
+query&amp;lt;-&amp;quot;SELECT weight FROM Master&amp;quot; result&amp;lt;-sqldf(query) Also, we have to use handy tool ggplot2:
+ggplot()+ geom_histogram(data=result,aes(x=weight),color=&amp;quot;purple&amp;quot;,fill=&amp;quot;white&amp;quot;,bins=50)+ ggtitle(&amp;quot;Body-weight Distribution for Baseball Players&amp;quot;)+ xlab(&amp;quot;Weight of player&amp;quot;)+ ylab(&amp;quot;Number of players&amp;quot;) ## Warning: Removed 854 rows containing non-finite values (stat_bin).</description>
+    </item>
+    
+  </channel>
+</rss>

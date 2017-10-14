@@ -1,0 +1,31 @@
+---
+title: Scatterplot
+author: Ivona Plecevic
+date: '2017-10-10'
+slug: Scatterplot
+categories:
+  - Scatterplot
+tags:
+  - Scatterplot
+---
+
+
+
+<p>Here we can see how to make our own Scatterplot!</p>
+<p>First, we have to install the following pakages:</p>
+<pre class="r"><code>library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<p>When we installed the pakages, we are going to find the career of homeruns and strikeouts from players who had more than 400 homeruns.</p>
+<pre class="r"><code>query&lt;-&quot;SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_so
+FROM Batting
+GROUP BY playerID 
+HAVING sum(HR)&gt;=400&quot;
+result&lt;-sqldf(query)</code></pre>
+<p>To make a graph we would have to use ggplot2. You can also use diffrent colors and sizes.</p>
+<pre class="r"><code>ggplot()+
+  geom_point(data=result,aes(x=career_so,y=career_HR),size=3,color=&quot;purple&quot;)+
+  ggtitle(&quot;career Strikeouts VS Homeruns for Great Hitters&quot;)+
+  xlab(&quot;career Strikeouts&quot;)+
+    ylab(&quot;career Homeruns&quot;)</code></pre>
+<p><img src="/post/2017-10-10-scatterplot_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>

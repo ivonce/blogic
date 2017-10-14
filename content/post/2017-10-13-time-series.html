@@ -1,0 +1,27 @@
+---
+title: Time Series
+author: ''
+date: '2017-10-13'
+slug: time-series
+categories: []
+tags: []
+---
+
+
+
+<p>Here is the instruction how to make Time Series.</p>
+<p>Like everywhere, first we have to install the pakages:</p>
+<pre class="r"><code>library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<p>In this example we want to see Babe Ruth’s homeruns over his career in baseball.</p>
+<pre class="r"><code>query&lt;-&quot;SELECT yearID,HR FROM Batting WHERE playerID=&#39;ruthba01&#39;&quot;
+result&lt;-sqldf(query)</code></pre>
+<p>Now we want to make the paragraf, and for that we need ggplot2</p>
+<pre class="r"><code>ggplot()+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  geom_point(data=result,aes(x=yearID,y=HR))+
+  ggtitle(&quot;Ruth&#39;s Homerans Totals Trough the Years&quot;)+
+  xlab(&quot;Year&quot;)+
+  ylab(&quot;Homeruns&quot;)</code></pre>
+<p><img src="/post/2017-10-13-time-series_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>

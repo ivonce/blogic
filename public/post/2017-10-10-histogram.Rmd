@@ -1,0 +1,58 @@
+---
+title: Histogram
+author: Ivona Plecevic
+date: '2017-10-10'
+slug: histogram
+categories:
+  - Histogram
+tags:
+  - Histogram
+  
+---
+Here you can see how to make an Histagram!
+
+In this example we want to see the weights of MLB players, through the Master table.
+
+But firstly, we have to install those pakages:
+
+```{r warning=FALSE, message=FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+```
+
+For this example, we need to use the Master table to gather its data.
+
+```{r}
+query<-"SELECT weight 
+FROM Master"
+result<-sqldf(query)
+```
+
+Also, we have to use handy tool ggplot2:
+```{r}
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="purple",fill="white",bins=50)+
+  ggtitle("Body-weight Distribution for Baseball Players")+
+  xlab("Weight of player")+
+  ylab("Number of players")
+```
+
+The histograms can also look a diffrent, because we can change colors and sizes of bins. Here is one example:
+```{r}
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="purple",fill="white",bins=10)+
+  ggtitle("Body-weight Distribution for Baseball Players")+
+  xlab("Weight of player")+
+  ylab("Number of players")
+```
+
+Next example of Histagram help us to see some drastical changes:
+
+```{r}
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="purple",fill="white",bins=100)+
+  ggtitle("Distribution of Baseball Player Bodyweight")+
+  xlab("Weight of player")+
+  ylab("Number of players")
+```

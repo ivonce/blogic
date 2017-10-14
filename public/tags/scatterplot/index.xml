@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scatterplot on Ivona&#39;s blog</title>
+    <link>/tags/scatterplot/</link>
+    <description>Recent content in Scatterplot on Ivona&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/scatterplot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scatterplot</title>
+      <link>/post/scatterplot/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/scatterplot/</guid>
+      <description>Here we can see how to make our own Scatterplot!
+First, we have to install the following pakages:
+library(Lahman) library(sqldf) library(ggplot2) When we installed the pakages, we are going to find the career of homeruns and strikeouts from players who had more than 400 homeruns.
+query&amp;lt;-&amp;quot;SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_so FROM Batting GROUP BY playerID HAVING sum(HR)&amp;gt;=400&amp;quot; result&amp;lt;-sqldf(query) To make a graph we would have to use ggplot2. You can also use diffrent colors and sizes.</description>
+    </item>
+    
+  </channel>
+</rss>

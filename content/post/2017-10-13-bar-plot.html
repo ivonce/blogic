@@ -1,0 +1,34 @@
+---
+title: Bar Plot
+author: Ivona Plecevic
+date: '2017-10-13'
+slug: bar-plot
+categories:
+  - Bar Plot
+tags:
+  - Bar Plot
+---
+
+
+
+<p>Here we can see how to make ourown Bar Plot!</p>
+<p>First step is to install all the pakages:</p>
+<pre class="r"><code>library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<p>In this example we will look at the team homerun totals for all the MLB teams in 1980:</p>
+<pre class="r"><code>query&lt;-&quot;SELECT name,HR
+FROM Teams
+WHERE yearID=1980
+ORDER BY HR&quot;
+
+result&lt;-sqldf(query)
+result$name&lt;-factor(result$name,levels=result$name)</code></pre>
+<p>To make an bar plot, we have to use this command! But aslo we can play with sizes of bins and otehr colors!</p>
+<pre class="r"><code>ggplot()+
+  geom_bar(data=result,aes(x=name,y=HR),stat=&#39;identity&#39;,color=&#39;purple&#39;,fill=&#39;white&#39;)+
+  coord_flip()+
+  ggtitle(&quot;1980 Team Homerun Totals&quot;)+
+  xlab(&quot;Team Name&quot;)+
+  ylab(&quot;Homeruns&quot;)</code></pre>
+<p><img src="/post/2017-10-13-bar-plot_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
