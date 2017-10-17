@@ -3,98 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/time-series/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/post/time-series/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/bar-plot/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/post/bar-plot/</loc>
     <lastmod>2017-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/time-series/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/post/time-series/</loc>
     <lastmod>2017-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/histogram/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/post/histogram/</loc>
     <lastmod>2017-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/scatterplot/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/post/scatterplot/</loc>
     <lastmod>2017-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bar-plot/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/tags/bar-plot/</loc>
     <lastmod>2017-10-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/bar-plot/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/categories/bar-plot/</loc>
     <lastmod>2017-10-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/categories/</loc>
     <lastmod>2017-10-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/histogram/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/histogram/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/tags/histogram/</loc>
     <lastmod>2017-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <loc>https://ivonaplecevictutorial.netlify.com/categories/histogram/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/scatterplot/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/scatterplot/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/time-series/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/post/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/time-series/</loc>
+    <loc>https://ivonaplecevictutorial.netlify.com/tags/scatterplot/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ivonaplecevictutorial.netlify.com/categories/scatterplot/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ivonaplecevictutorial.netlify.com/tags/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ivonaplecevictutorial.netlify.com/tags/time-series/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ivonaplecevictutorial.netlify.com/categories/time-series/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ivona&#39;s blog</title>
-    <link>/post/</link>
+    <link>https://ivonaplecevictutorial.netlify.com/post/</link>
     <description>Recent content in Posts on Ivona&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ivonaplecevictutorial.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Time Series</title>
-      <link>/post/time-series/</link>
+      <link>https://ivonaplecevictutorial.netlify.com/post/time-series/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/time-series/</guid>
+      <guid>https://ivonaplecevictutorial.netlify.com/post/time-series/</guid>
       <description>Here is the instruction how to make Time Series.
 Like everywhere, first we have to install the pakages:
 library(Lahman) library(sqldf) library(ggplot2) In this example we want to see Babe Ruth’s homeruns over his career in baseball.
@@ -27,10 +27,10 @@ ggplot()+ geom_line(data=result,aes(x=yearID,y=HR))+ geom_point(data=result,aes(
     
     <item>
       <title>Bar Plot</title>
-      <link>/post/bar-plot/</link>
+      <link>https://ivonaplecevictutorial.netlify.com/post/bar-plot/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/bar-plot/</guid>
+      <guid>https://ivonaplecevictutorial.netlify.com/post/bar-plot/</guid>
       <description>Here we can see how to make ourown Bar Plot!
 First step is to install all the pakages:
 library(Lahman) library(sqldf) library(ggplot2) In this example we will look at the team homerun totals for all the MLB teams in 1980:
@@ -39,10 +39,10 @@ query&amp;lt;-&amp;quot;SELECT name,HR FROM Teams WHERE yearID=1980 ORDER BY HR&
     
     <item>
       <title>Time Series</title>
-      <link>/post/time-series/</link>
+      <link>https://ivonaplecevictutorial.netlify.com/post/time-series/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/time-series/</guid>
+      <guid>https://ivonaplecevictutorial.netlify.com/post/time-series/</guid>
       <description>Here is the instruction how to make Time Series.
 Like everywhere, first we have to install the pakages:
 library(Lahman) library(sqldf) library(ggplot2) In this example we want to see Babe Ruth’s homeruns over his career in baseball.
@@ -52,10 +52,10 @@ ggplot()+ geom_line(data=result,aes(x=yearID,y=HR))+ geom_point(data=result,aes(
     
     <item>
       <title>Histogram</title>
-      <link>/post/histogram/</link>
+      <link>https://ivonaplecevictutorial.netlify.com/post/histogram/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/histogram/</guid>
+      <guid>https://ivonaplecevictutorial.netlify.com/post/histogram/</guid>
       <description>Here you can see how to make an Histagram!
 In this example we want to see the weights of MLB players, through the Master table.
 But firstly, we have to install those pakages:
@@ -66,10 +66,10 @@ ggplot()+ geom_histogram(data=result,aes(x=weight),color=&amp;quot;purple&amp;qu
     
     <item>
       <title>Scatterplot</title>
-      <link>/post/scatterplot/</link>
+      <link>https://ivonaplecevictutorial.netlify.com/post/scatterplot/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/scatterplot/</guid>
+      <guid>https://ivonaplecevictutorial.netlify.com/post/scatterplot/</guid>
       <description>Here we can see how to make our own Scatterplot!
 First, we have to install the following pakages:
 library(Lahman) library(sqldf) library(ggplot2) When we installed the pakages, we are going to find the career of homeruns and strikeouts from players who had more than 400 homeruns.

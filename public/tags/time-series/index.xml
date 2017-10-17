@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time Series on Ivona&#39;s blog</title>
-    <link>/tags/time-series/</link>
+    <link>https://ivonaplecevictutorial.netlify.com/tags/time-series/</link>
     <description>Recent content in Time Series on Ivona&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ivonaplecevictutorial.netlify.com/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Time Series</title>
-      <link>/post/time-series/</link>
+      <link>https://ivonaplecevictutorial.netlify.com/post/time-series/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/time-series/</guid>
+      <guid>https://ivonaplecevictutorial.netlify.com/post/time-series/</guid>
       <description>Here is the instruction how to make Time Series.
 Like everywhere, first we have to install the pakages:
 library(Lahman) library(sqldf) library(ggplot2) In this example we want to see Babe Ruth’s homeruns over his career in baseball.

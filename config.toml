@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://ivonaplecevictutorial.netlify.com"
 languageCode = "en-us"
 title = "Ivona's blog"
 # Define how many pages appear per site
@@ -11,7 +11,7 @@ theme = "hugo-minimalist-theme"
 
 [params]
     site_author = "Ivona Plecevic"
-    site_description = "The awesome blog of John Doe."
+    site_description = "The awesome blog of Ivona Plecevic"
     location = "Mercyhurst University"
     # Link custom assets relative to /static
     avatar = "img/thumb.jpg"
